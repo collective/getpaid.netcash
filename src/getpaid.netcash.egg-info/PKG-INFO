@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: getpaid.netcash
+Version: 0.9dev.dev-r2670
+Summary: Get paid NetCash payment processor functionality. Built on the VCS processor.
+Home-page: http://code.google.com/p/getpaid
+Author: Hannes Calitz
+Author-email: hannes@opennetworks.co.za
+License: ZPL2.1
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Zope2
+Classifier: Framework :: Zope3
+Classifier: Framework :: Plone
