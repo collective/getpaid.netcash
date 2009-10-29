@@ -1,0 +1,26 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+			xmlns:browser="http://namespaces.zope.org/browser"
+  			xmlns:five="http://namespaces.zope.org/five">
+
+	<browser:page
+     for="*"
+     name="checkout-redirect"
+     template="browser/templates/redirect.pt"
+     permission="zope2.View"
+     />
+
+   <adapter
+      for="getpaid.core.interfaces.IStore"
+      provides=".interfaces.INetCashStandardOptions"
+      factory=".netcash.NetCashStandardOptions" />
+
+   <adapter
+      for="getpaid.core.interfaces.IStore"
+      provides="getpaid.core.interfaces.IPaymentProcessor"
+      name="NetCash Payments"
+      factory=".netcash.NetCashStandardProcessor" />
+
+   <include package=".browser" />
+   <include file="vocabulary.zcml" />
+
+</configure>

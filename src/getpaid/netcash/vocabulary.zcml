@@ -1,0 +1,19 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+xmlns:five="http://namespaces.zope.org/five">
+
+  <vocabulary
+    name="getpaid.netcash.server_urls"
+    factory=".vocabulary.serverUrlsChoices"
+    />
+
+  <vocabulary
+    name="getpaid.netcash.currencies"
+    factory=".vocabulary.currencyChoices"
+    />
+
+  <vocabulary
+    name="getpaid.netcash.budget"
+    factory=".vocabulary.budgetChoices"
+    />
+
+</configure>

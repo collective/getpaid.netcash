@@ -1,0 +1,8 @@
+<html metal:use-macro="here/main_template/macros/master" i18n:domain="plone" >
+  <body>
+    <div metal:fill-slot="main" class="paypal-redirect" >
+    <p>You should be automatically redirected to NetCash.  If not, please follow the following link:</p>
+    <span tal:replace="structure view/returnForm">TheButton</span>
+    </div>
+  </body>
+</html>
