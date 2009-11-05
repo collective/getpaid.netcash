@@ -1,0 +1,36 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:five="http://namespaces.zope.org/five">
+
+  <browser:page
+     for="*"
+     name="getpaid-netcash-check"
+     class=".check.NetCashCheck"
+     permission="zope2.View"
+     />
+
+  <browser:page
+     for="*"
+     name="getpaid-netcash-accepted-payment"
+     template="templates/accepted.pt"
+     class=".postProcess.NetCashPostProcessAccepted"
+     permission="zope2.View"
+     />
+
+  <browser:page
+     for="*"
+     name="getpaid-netcash-cancelled-payment"
+     template="templates/cancelled.pt"
+     class=".postProcess.NetCashPostProcessCancelled"
+     permission="zope2.View"
+     />
+
+	<browser:page
+     for="*"
+     name="getpaid-netcash-redirect"
+	 template="templates/redirect.pt"
+	 class="getpaid.netcash.browser.netcashredirect.NetCashRedirect"
+     permission="zope2.View"
+     />
+
+</configure>

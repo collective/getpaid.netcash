@@ -1,0 +1,117 @@
+# #############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+# #############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1 build 10\n"
+"POT-Creation-Date: Mon Aug 20 00:15:19 2007\n"
+"PO-Revision-Date: Wed Jun  6 10:28:22 2007\n"
+"Last-Translator: Jean Francois Roche <jfroche@jfroche.be>\n"
+"Language-Team: <info@affinitic.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language-Code: fr\n"
+"Language-Name: French\n"
+"Preferred-Encodings: latin1 utf-8\n"
+"X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
+"Domain: getpaid.ogone\n"
+
+#: /interfaces.py:13
+msgid "Enter here your ogone pspid"
+msgstr ""
+
+#: /interfaces.py:15
+msgid "Ogone Id"
+msgstr ""
+
+#: /interfaces.py:18
+msgid "Currency"
+msgstr ""
+
+#: /interfaces.py:22
+msgid "SHA IN String"
+msgstr ""
+
+#: /interfaces.py:24
+msgid ""
+"The SHA-1 password string you entered in section 3.2 of the Ogone technical "
+"information page"
+msgstr ""
+
+#: /interfaces.py:27
+msgid "SHA OUT String"
+msgstr ""
+
+#: /interfaces.py:29
+msgid ""
+"The SHA-1 password string you entered in section 4.3 of the Ogone technical "
+"information page"
+msgstr ""
+
+#: /interfaces.py:33
+msgid "Accept URL"
+msgstr ""
+
+#: /interfaces.py:35
+msgid "The url of the page that display the success of the payment"
+msgstr ""
+
+#: /interfaces.py:38
+msgid "Cancel URL"
+msgstr ""
+
+#: /interfaces.py:40
+msgid "The url of the page which is displayed when the payment is cancelled"
+msgstr ""
+
+#: /interfaces.py:43
+msgid "Decline URL"
+msgstr ""
+
+#: /interfaces.py:45
+msgid ""
+"The url of the page which is displayed when the payment is refused by the "
+"band card company"
+msgstr ""
+
+#: /interfaces.py:48
+msgid "Error URL"
+msgstr ""
+
+#: /interfaces.py:50
+msgid ""
+"The url of the page which is displayed when there is an error in the payment "
+"transation"
+msgstr ""
+
+#: /interfaces.py:9
+msgid "Ogone Website Payments Server"
+msgstr ""
+
+#: /vocabulary.py:13
+msgid "Euro"
+msgstr ""
+
+#: /vocabulary.py:14
+msgid "US DOLLAR"
+msgstr ""
+
+#: /vocabulary.py:7
+msgid "Test Server"
+msgstr ""
+
+#: /vocabulary.py:8
+msgid "Production Server"
+msgstr ""
