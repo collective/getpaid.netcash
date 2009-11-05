@@ -16,7 +16,7 @@ def read(*rnames):
 
 setup(
     name='getpaid.netcash',
-    version='0.9dev',
+    version='0.1',
     license = 'ZPL2.1',
     author='Hannes Calitz',
     author_email='hannes@opennetworks.co.za',

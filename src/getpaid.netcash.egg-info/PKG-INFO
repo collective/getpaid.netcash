@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: getpaid.netcash
-Version: 0.9dev.dev-r3165
+Version: 0.9dev.dev-r0
 Summary: Get paid NetCash payment processor functionality. Built on the VCS processor.
 Home-page: http://code.google.com/p/getpaid
 Author: Hannes Calitz
